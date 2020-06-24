@@ -9,7 +9,7 @@ var indice;
 console.log(cognomi);
 
 var cognomeUtente = prompt("Inserisci il tuo cognome");
-cognomi.push("cognomeUtente");
+cognomi.push(cognomeUtente);
 
 cognomiOrdinati = cognomi.sort();
 console.log(cognomiOrdinati);
@@ -18,7 +18,6 @@ for (var i = 0; i < cognomiOrdinati.length; i++) {
   lista = cognomiOrdinati[i];
   listaPrima = document.getElementById('lista').innerHTML;
   document.getElementById("lista").innerHTML= listaPrima + "<li>" + lista + "</li>" ;
-
 
 }
 
